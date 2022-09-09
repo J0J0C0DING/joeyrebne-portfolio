@@ -1,10 +1,18 @@
 import React from 'react';
+import Navigation from '../Navigation';
 
 function Header() {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <header>
+      <div className="h-14 mx-4 mt-3">
+        <img
+          src={require('../../assets/images/branding/logo-full/full-logo-black.png')}
+          alt="logo"
+          className="h-1/2"
+        />
+      </div>
+      <Navigation />
+    </header>
   );
 }
 
