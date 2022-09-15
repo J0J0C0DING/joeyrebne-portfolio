@@ -3,7 +3,7 @@ import Navigation from '../Navigation';
 
 function Header() {
   return (
-    <header className="w-screen flex flex-wrap justify-center mt-5 items-center">
+    <header className="w-screen flex flex-wrap justify-center pt-5 items-center sticky top-0 pb-3 bg-white">
       <div className="mb-4">
         <img
           src={require('../../assets/images/branding/logo-full/full-logo-black.png')}

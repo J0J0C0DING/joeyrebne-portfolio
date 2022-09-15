@@ -38,7 +38,19 @@ const Hover = ({ project }) => {
         >
           {/* display project data in div */}
           <div className="absolute top-1/2  max-h-full overflow-auto">
-            <h2>{project.name}</h2>
+            <div className="flex flex-wrap">
+              <h2>{project.name}</h2>
+              <a href={project.github}>
+                <img
+                  src={require('../../assets/images/icons/social-media/light/github-light.png')}
+                  alt={`link to ${project.github}'s GitHub repository`}
+                  className="h-6"
+                />
+              </a>
+            </div>
+            <a href={project.deployed}>
+              <h4 className="italic">{project.deployed}</h4>
+            </a>
             <p>{project.description}</p>
           </div>
         </div>

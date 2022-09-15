@@ -8,7 +8,10 @@ import Portfolio from './components/Portfolio';
 function App() {
   return (
     <div>
-      <Header></Header>
+      <header className="sticky top-0 z-10">
+        <Header></Header>
+      </header>
+
       <Portfolio></Portfolio>
     </div>
   );

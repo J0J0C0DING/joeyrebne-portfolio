@@ -453,11 +453,17 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
 .relative {
   position: relative;
+}
+.sticky {
+  position: sticky;
 }
 .top-0 {
   top: 0px;
@@ -465,8 +471,35 @@ video {
 .top-1\/2 {
   top: 50%;
 }
-.mt-5 {
-  margin-top: 1.25rem;
+.top-16 {
+  top: 4rem;
+}
+.right-0 {
+  right: 0px;
+}
+.top-36 {
+  top: 9rem;
+}
+.right-10 {
+  right: 2.5rem;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
+}
+.top-10 {
+  top: 2.5rem;
+}
+.bottom-10 {
+  bottom: 2.5rem;
+}
+.right-6 {
+  right: 1.5rem;
+}
+.z-10 {
+  z-index: 10;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -483,6 +516,13 @@ video {
 .h-full {
   height: 100%;
 }
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.h-6 {
+  height: 1.5rem;
+}
 .max-h-52 {
   max-height: 13rem;
 }
@@ -494,6 +534,20 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.origin-top-left {
+  transform-origin: top left;
+}
+.origin-center {
+  transform-origin: center;
+}
+.-rotate-90 {
+  --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -517,6 +571,13 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-transparent {
+  background-color: transparent;
+}
 .object-cover {
   object-fit: cover;
 }
@@ -526,6 +587,24 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+.pt-5 {
+  padding-top: 1.25rem;
+}
+.pb-8 {
+  padding-bottom: 2rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+.align-bottom {
+  vertical-align: bottom;
+}
+.italic {
+  font-style: italic;
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
