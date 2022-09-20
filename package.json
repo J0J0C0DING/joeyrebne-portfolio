@@ -2,7 +2,7 @@
   "name": "joeyrebne-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://j0j0c0ding.github.io/joeyrebne",
+  "homepage": "https://j0j0c0ding.github.io/joeyrebne-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
