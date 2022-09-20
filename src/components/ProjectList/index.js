@@ -93,7 +93,7 @@ const PortfolioList = ({ category }) => {
   const currentProjects = photos.filter(photo => photo.category === category);
 
   return (
-    <div className="flex flex-wrap w-full ">
+    <div className="flex flex-wrap w-full">
       {currentProjects.map(image => {
         return <Hover project={image} key={image.name} />;
       })}
