@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import capitalizeFirstLetter from '../../utils';
+import { capitalizeFirstLetter } from '../../utils';
 
 function Navigation(props) {
   const { currentPage, setCurrentPage } = props;
