@@ -37,16 +37,16 @@ const Hover = ({ project }) => {
           onMouseLeave={handleMouseOut}
         >
           {/* display project data in div */}
-          <div className="absolute top-1/2  max-h-full overflow-auto">
+          <div className="absolute top-1/3  min-h-full overflow-auto px-2">
             <div className="flex flex-wrap">
-              <h2>{project.name}</h2>
+              <h2 className="text-white text-xl">{project.name}</h2>
               {/* Add GitHub link if web application */}
               {project.category === 'web' ? (
                 <a href={project.github}>
                   <img
                     src={require('../../assets/images/icons/social-media/light/github-light.png')}
                     alt={`link to ${project.github}'s GitHub repository`}
-                    className="h-6"
+                    className="h-6 pl-3"
                   />
                 </a>
               ) : (
@@ -54,9 +54,9 @@ const Hover = ({ project }) => {
               )}
             </div>
             <a href={project.deployed}>
-              <h4 className="italic underline">view here</h4>
+              <h4 className="italic underline text-white py-2">view here</h4>
             </a>
-            <p>{project.description}</p>
+            <p className="text-white overflow-ellipsis">{project.description}</p>
           </div>
         </div>
       </div>

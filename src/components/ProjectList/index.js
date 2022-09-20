@@ -15,7 +15,7 @@ const PortfolioList = ({ category }) => {
     {
       name: `Movie Finder`,
       category: 'web',
-      description: `This web application allows anyone to search for a movie and find any streaming services offering it. With each movie search, a grid of movies matching the search input. Simply click on a movie from the search results and a display with movie details and available streaming services will generate.`,
+      description: `This web application allows anyone to search for a movie and find any streaming services offering it. `,
       src: 'movieFinder',
       github: 'https://github.com/J0J0C0DING/Movie-Finder',
       deployed: 'https://j0j0c0ding.github.io/Movie-Finder/',
@@ -57,6 +57,7 @@ const PortfolioList = ({ category }) => {
       category: 'mobile',
       description: `Redesign of social media application, Foode. Updated design offers cleaner UI with reduced clutter and simplified design.`,
       src: 'foode',
+      deployed: 'https://www.figma.com/file/mIgNgPqJVd6Pdirb6HMw99/Foode-UI?node-id=0%3A1',
     },
     {
       name: `Unpacking the Opioid Epidemic`,
