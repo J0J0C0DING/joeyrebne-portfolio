@@ -1,0 +1,40 @@
+{
+  "short_name": "Joey Rebne",
+  "name": "Joey Rebne Web/Design Portfolio",
+  "icons": [
+    {
+      "src": "icons/favicon16.png",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/favicon24.png",
+      "type": "image/x-icon",
+      "sizes": "24x24"
+    },
+    {
+      "src": "icons/favicon32.png",
+      "type": "image/x-icon",
+      "sizes": "32x32"
+    },
+    {
+      "src": "icons/favicon64.png",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/favicon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/favicon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#262625",
+  "background_color": "#262625"
+}

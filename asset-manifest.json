@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/joeyrebne/static/css/main.58045d8b.css",
+    "main.js": "/joeyrebne/static/js/main.90c5cf75.js",
+    "static/js/787.92c8778e.chunk.js": "/joeyrebne/static/js/787.92c8778e.chunk.js",
+    "static/media/project-ohSnap.png": "/joeyrebne/static/media/project-ohSnap.a3bff6f4af37bf7d5899.png",
+    "static/media/project-opioidEpidemic.png": "/joeyrebne/static/media/project-opioidEpidemic.72b371b634b3b98f4c04.png",
+    "static/media/project-brainShopping.png": "/joeyrebne/static/media/project-brainShopping.cb560748c4e1cad04c18.png",
+    "static/media/project-bookCover.png": "/joeyrebne/static/media/project-bookCover.e0471569281c20fdad5a.png",
+    "static/media/project-weatherApp.png": "/joeyrebne/static/media/project-weatherApp.d8b60a0fe43a2fc40f22.png",
+    "static/media/project-mtTelemark.png": "/joeyrebne/static/media/project-mtTelemark.2c4ac0043e141f334ed9.png",
+    "static/media/project-foode.png": "/joeyrebne/static/media/project-foode.fcee6a995d1bd35c58e5.png",
+    "static/media/project-runBuddy.png": "/joeyrebne/static/media/project-runBuddy.4ebcdddbdb9c3332e50f.png",
+    "static/media/profile-picture.png": "/joeyrebne/static/media/profile-picture.9251fb20f186dec7b015.png",
+    "static/media/project-juliasChildren.png": "/joeyrebne/static/media/project-juliasChildren.b96cfa9083eb13d0a90d.png",
+    "static/media/project-workDayPlanner.png": "/joeyrebne/static/media/project-workDayPlanner.ed3bfc5c81032ddbe8a5.png",
+    "static/media/project-movieFinder.png": "/joeyrebne/static/media/project-movieFinder.bcbf35a49d3daf30b871.png",
+    "static/media/resume_Page_1.png": "/joeyrebne/static/media/resume_Page_1.1c5fd4c85e08afe9267e.png",
+    "static/media/resume_Page_2.png": "/joeyrebne/static/media/resume_Page_2.68a319fef1286fad7732.png",
+    "static/media/full-logo-black.png": "/joeyrebne/static/media/full-logo-black.ea4f2f9ccfe48244d5c6.png",
+    "index.html": "/joeyrebne/index.html",
+    "main.58045d8b.css.map": "/joeyrebne/static/css/main.58045d8b.css.map",
+    "main.90c5cf75.js.map": "/joeyrebne/static/js/main.90c5cf75.js.map",
+    "787.92c8778e.chunk.js.map": "/joeyrebne/static/js/787.92c8778e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58045d8b.css",
+    "static/js/main.90c5cf75.js"
+  ]
+}
