@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
 
+import capitalizeFirstLetter from '../../utils';
+
 function Navigation(props) {
   const { setCurrentPage, currentPage } = props;
   useEffect(() => {
-    document.title = currentPage.page;
+    document.title = capitalizeFirstLetter(currentPage);
   });
   return (
     <div id="main" className="flex items-center justify-between px-3 ">
