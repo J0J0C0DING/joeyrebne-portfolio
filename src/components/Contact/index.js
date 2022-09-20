@@ -31,6 +31,7 @@ function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
+    setFormState({ name: '', email: '', message: '' });
   }
 
   return (
