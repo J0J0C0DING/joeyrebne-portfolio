@@ -10,3 +10,7 @@
     padding-right: min(12px, env(safe-area-inset-right));
   }
 }
+
+html {
+  background-color: 262625;
+}
