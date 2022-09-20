@@ -4,6 +4,7 @@ import Portfolio from './components/Portfolio';
 import Navigation from './components/Navigation';
 import About from './components/About';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   const [pages] = useState([
@@ -37,6 +38,7 @@ function App() {
         {currentPage === 'portfolio' && <Portfolio />}
         {currentPage === 'about' && <About />}
         {currentPage === 'contact' && <Contact />}
+        {currentPage === 'resume' && <Resume />}
       </section>
     </main>
   );
