@@ -474,6 +474,9 @@ video {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mt-5 {
+  margin-top: 1.25rem;
+}
 .flex {
   display: flex;
 }
