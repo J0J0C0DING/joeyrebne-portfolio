@@ -2,6 +2,9 @@
   "name": "joeyrebne-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://j0j0c0ding.github.io/joeyrebne",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -41,6 +44,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "autoprefixer": "^9.8.8",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.16",
     "postcss-cli": "^10.0.0",
     "tailwindcss": "^3.1.8"
