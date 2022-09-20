@@ -3,12 +3,12 @@ import React, { useEffect } from 'react';
 import capitalizeFirstLetter from '../../utils';
 
 function Navigation(props) {
-  const { setCurrentPage, currentPage } = props;
+  const { currentPage, setCurrentPage } = props;
   useEffect(() => {
     document.title = capitalizeFirstLetter(currentPage);
   });
   return (
-    <div id="main" className="flex items-center justify-between px-3 ">
+    <div id="main" className="flex items-center justify-between px-3 pb-4 bg-white">
       <a href="#portfolio" onClick={() => setCurrentPage('portfolio')}>
         <p className="px-3">My Work</p>
       </a>
