@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://j0j0c0ding.github.io/joeyrebne",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -21,7 +19,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch:css": "postcss src/index.css -o src/assets/stylesheets/main.css",
-    "tailwindwatch": "postcss src/index.css -o src/assets/stylesheets/main.css --watch"
+    "tailwindwatch": "postcss src/index.css -o src/assets/stylesheets/main.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
