@@ -1,18 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-function Navigation() {
+function Navigation(props) {
+  const { setCurrentPage, currentPage } = props;
+  useEffect(() => {
+    document.title = currentPage.page;
+  });
   return (
     <div id="main" className="flex items-center justify-between px-3 ">
-      <a href="#portfolio">
+      <a href="#portfolio" onClick={() => setCurrentPage('portfolio')}>
         <p className="px-3">My Work</p>
       </a>
-      <a href="#about">
+      <a href="#about" onClick={() => setCurrentPage('about')}>
         <p className="px-3">About</p>
       </a>
-      <a href="#resume">
+      <a href="#resume" onClick={() => setCurrentPage('resume')}>
         <p className="px-3">Resume</p>
       </a>
-      <a href="#contact">
+      <a href="#contact" onClick={() => setCurrentPage('contact')}>
         <div id="contact" className="p-1 border-2 border-slate-500 bg-white">
           <p>Contact</p>
         </div>

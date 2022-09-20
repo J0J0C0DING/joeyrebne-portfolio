@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from '../Navigation';
 
 function Header() {
   return (
@@ -11,7 +10,6 @@ function Header() {
           className="h-7"
         />
       </div>
-      <Navigation />
     </header>
   );
 }
