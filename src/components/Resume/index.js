@@ -8,9 +8,18 @@ function Resume() {
           View Here!
         </p>
       </a>
-
-      <img src={require('../../assets/resume_Page_1.png')} alt="resume page 1"></img>
-      <img src={require('../../assets/resume_Page_2.png')} alt="resume page 1"></img>
+      <div className="px-5 flex flex-wrap justify-center">
+        <img
+          src={require('../../assets/resume_Page_1.png')}
+          alt="resume page 1"
+          className="md:w-1/2"
+        />
+        <img
+          src={require('../../assets/resume_Page_2.png')}
+          alt="resume page 1"
+          className="md:w-1/2"
+        />
+      </div>
     </section>
   );
 }
