@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [pages] = useState([
@@ -40,6 +41,8 @@ function App() {
         {currentPage === 'contact' && <Contact />}
         {currentPage === 'resume' && <Resume />}
       </section>
+
+      <Footer />
     </main>
   );
 }

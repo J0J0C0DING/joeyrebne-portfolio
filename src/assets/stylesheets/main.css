@@ -683,8 +683,14 @@ select {
   height: -moz-fit-content;
   height: fit-content;
 }
+.h-10 {
+  height: 2.5rem;
+}
 .max-h-52 {
   max-height: 13rem;
+}
+.max-h-10 {
+  max-height: 2.5rem;
 }
 .min-h-full {
   min-height: 100%;
