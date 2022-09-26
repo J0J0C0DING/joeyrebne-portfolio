@@ -4,7 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Julia'schildren](https://img.shields.io/badge/Project-Julia'%20Children-green)
-![Skill](https://img.shields.io/badge/Skill%20included-npm%20HTML%20CSS%20JAVA-blue)
 
 ## Table of Contents
 
