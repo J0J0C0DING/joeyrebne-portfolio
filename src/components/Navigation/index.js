@@ -8,7 +8,7 @@ function Navigation(props) {
     document.title = capitalizeFirstLetter(currentPage);
   });
   return (
-    <div id="main" className="flex items-center justify-between px-3 pb-4 bg-white">
+    <div id="main" className="flex items-center justify-between px-3 pb-4 bg-black">
       <a href="#portfolio" onClick={() => setCurrentPage('portfolio')}>
         <p className="px-3">My Work</p>
       </a>
@@ -19,7 +19,7 @@ function Navigation(props) {
         <p className="px-3">Resume</p>
       </a>
       <a href="#contact" onClick={() => setCurrentPage('contact')}>
-        <div id="contact" className="p-1 border-2 border-slate-500 bg-white">
+        <div id="contact" className="p-1 border-2 border-slate-500 bg-black">
           <p>Contact</p>
         </div>
       </a>

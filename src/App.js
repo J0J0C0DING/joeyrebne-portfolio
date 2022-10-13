@@ -26,24 +26,25 @@ function App() {
   const [currentPage, setCurrentPage] = useState('portfolio');
 
   return (
-    <main>
+    <div className="site">
       <header className="sticky top-0 z-10">
-        <Header></Header>
+        <Header />
         <Navigation
           pages={pages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
         ></Navigation>
       </header>
-      <section id={currentPage}>
-        {currentPage === 'portfolio' && <Portfolio />}
-        {currentPage === 'about' && <About />}
-        {currentPage === 'contact' && <Contact />}
-        {currentPage === 'resume' && <Resume />}
-      </section>
-
+      <main className="content">
+        <section id={currentPage}>
+          {currentPage === 'portfolio' && <Portfolio />}
+          {currentPage === 'about' && <About />}
+          {currentPage === 'contact' && <Contact />}
+          {currentPage === 'resume' && <Resume />}
+        </section>
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }
 export default App;

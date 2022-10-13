@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import GitHubIcon from '../../assets/images/icons/social-media/GitHub.svg';
+
 const Hover = ({ project }) => {
   // Add hover state to trigger overlay
   const [isHovering, setIsHovering] = useState(false);
@@ -44,9 +46,9 @@ const Hover = ({ project }) => {
               {project.category === 'web' ? (
                 <a href={project.github}>
                   <img
-                    src={require('../../assets/images/icons/social-media/light/github-light.png')}
+                    src={GitHubIcon}
                     alt={`link to ${project.github}'s GitHub repository`}
-                    className="h-6 pl-3"
+                    className="h-6 pl-3 icon-light"
                   />
                 </a>
               ) : (

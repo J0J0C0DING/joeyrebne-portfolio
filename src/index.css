@@ -11,6 +11,26 @@
   }
 }
 
-html {
-  background-color: 262625;
+html,
+body {
+  background-color: #070101;
+  color: white;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.icon-light {
+  filter: invert(100%) sepia(1%) saturate(5913%) hue-rotate(288deg) brightness(121%) contrast(89%);
 }
