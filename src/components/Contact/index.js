@@ -62,7 +62,7 @@ function Contact() {
               defaultValue={formState.name}
               onBlur={handleChange}
               name="name"
-              className="mt-1 block w-full"
+              className="mt-1 block w-full rounded-lg"
             />
           </div>
           <div>
@@ -74,7 +74,7 @@ function Contact() {
               name="email"
               defaultValue={formState.email}
               onBlur={handleChange}
-              className="mt-1 block w-full"
+              className="mt-1 block w-full rounded-lg"
             />
           </div>
           <div>
@@ -86,7 +86,7 @@ function Contact() {
               defaultValue={formState.message}
               rows="5"
               onBlur={handleChange}
-              className="mt-1 block w-full"
+              className="mt-1 block w-full rounded-lg"
             />
           </div>
           {errorMessage && (

@@ -20,7 +20,7 @@ function About() {
           <h1 className="w-full">{name}</h1>
           <h3 className="font-light italic">{title}</h3>
         </div>
-        <div id="about" className="p-3 mb-5 border-4 md:w-1/2 h-fit mx-2">
+        <div id="about" className="p-3 mb-5 border-4 md:w-1/2 h-fit mx-6">
           <h2 className="font-bold text-2xl">&#123;01&#93; About Me</h2>
           <div>
             <p>{bio}</p>
@@ -34,7 +34,7 @@ function About() {
       {/* Web Skills */}
       <div id="webSkills" className="px-3 md:flex">
         <div id="webSkills" className="flex flex-wrap text-center justify-center mb-5 md:w-1/2">
-          <h3 className="border-b-2 mb-2 w-3/4 font-medium text-xl">Web</h3>
+          <h3 className="border-b-2 mb-5 pb-2 w-2/4 font-medium text-xl">Web</h3>
           <div className="flex flex-wrap justify-center">
             {webSkills.map(skill => (
               <div
@@ -49,8 +49,8 @@ function About() {
 
         {/* Design Skills */}
         <div id="designSkills" className="flex flex-wrap text-center justify-center md:w-1/2 h-fit">
-          <h3 className="border-b-2 mb-2 w-3/4 font-medium text-xl h-fit">Design</h3>
-          <div className="flex flex-wrap justify-center">
+          <h3 className="border-b-2 mb-5 pb-2 w-2/4 font-medium text-xl h-fit">Design</h3>
+          <div className="flex flex-wrap justify-center mb-10">
             {designSkills.map(skill => (
               <div
                 key={skill}
