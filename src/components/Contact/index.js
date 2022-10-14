@@ -9,7 +9,7 @@ function Contact() {
   function handleChange(e) {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
-      console.log(isValid);
+
       if (!isValid) {
         setErrorMessage('Your email is invalid');
       } else {
@@ -35,10 +35,24 @@ function Contact() {
   }
 
   return (
-    <section className="max-w-xl mx-auto py-12 divide-y md:max-w-4xl px-3">
-      <h1>Contact Me</h1>
-      <div className="mt-8 max-w-md">
-        <form id="contact-form" className="grid grid-cols-1 gap-6" onSubmit={handleSubmit}>
+    <section className="w-11/12 mx-auto py-8 divide-y md:max-w-4xl px-3 bg-gradient-to-r from-cyan-500 to-blue-500 my-10 rounded-xl">
+      <h1 className="font-bold text-2xl mb-2">Contact Me</h1>
+      <div className="pt-2 flex flex-wrap justify-between items-center">
+        <div id="contact-info" className="pb-10">
+          <div id="phone" className="flex space-x-4 py-5">
+            <h2 className="font-bold">Phone:</h2>
+            <a href="tel:6128495026">+1 (612) 849 5026</a>
+          </div>
+          <div id="Email" className="flex space-x-4">
+            <h2 className="font-bold">Email:</h2>
+            <a href="mailto:joeyrebne@outlook.com">joeyrebne@outlook.com</a>
+          </div>
+        </div>
+        <form
+          id="contact-form"
+          className="w-full md:w-1/2 grid grid-cols-1 gap-2"
+          onSubmit={handleSubmit}
+        >
           <div>
             <label htmlFor="name" className="block">
               Name:
@@ -80,7 +94,12 @@ function Contact() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            className="bg-white text-blue-700 rounded-md w-fit px-5 py-2 mx-auto"
+          >
+            Submit
+          </button>
         </form>
       </div>
     </section>
