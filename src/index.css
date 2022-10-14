@@ -48,6 +48,10 @@ hr {
   justify-content: center;
 }
 
-h3 {
-  font
+.portButton {
+  background-color: #000000;
+  border: 1px solid white;
+  width: fit-content;
+  padding: 10px 20px;
+  margin: 10px 0px;
 }

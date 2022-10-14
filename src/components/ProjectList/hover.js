@@ -16,12 +16,12 @@ const Hover = ({ project }) => {
 
   return (
     <div className="w-full">
-      <div key={project.name} className="relative">
+      <div key={project.name} className="relative h-60 overflow-hidden">
         <img
           src={require(`../../assets/images/projectPreview/${project.category}/project-${project.src}.png`)}
           alt={project.name}
           key={project.name}
-          className={'object-cover w-full max-h-52'}
+          className={'object-cover min-w-full min-h-full'}
           // Trigger isHovering state
           onMouseEnter={handleMouseOver}
           onMouseLeave={handleMouseOut}
@@ -31,7 +31,7 @@ const Hover = ({ project }) => {
           // check if user is hovering, if so display div
           className={
             isHovering
-              ? 'absolute top-0 h-full w-full backdrop-blur-sm backdrop-brightness-50'
+              ? 'absolute top-0 h-full w-full backdrop-blur-sm backdrop-brightness-50 overflow-auto'
               : 'hidden'
           }
           // Keep isHovering state on when image is hovered
@@ -39,26 +39,33 @@ const Hover = ({ project }) => {
           onMouseLeave={handleMouseOut}
         >
           {/* display project data in div */}
-          <div className="absolute top-1/3  min-h-full overflow-auto px-2">
+          <div className="absolute top-1/4  px-2">
             <div className="flex flex-wrap">
-              <h3 className="text-white text-xl">{project.name}</h3>
+              <h3 className="text-white text-2xl font-bold">{project.name}</h3>
+            </div>
+            <p className="text-white text-ellipsis">{project.description}</p>
+            <div id="link buttons" className="flex space-x-3">
               {/* Add GitHub link if web application */}
               {project.category === 'web' ? (
-                <a href={project.github}>
-                  <img
-                    src={GitHubIcon}
-                    alt={`link to ${project.github}'s GitHub repository`}
-                    className="h-6 pl-3 icon-light"
-                  />
-                </a>
+                <div className="portButton rounded-md">
+                  <a href={project.github} className="flex flex-wrap">
+                    <img
+                      src={GitHubIcon}
+                      alt={`link to ${project.github}'s GitHub repository`}
+                      className="h-6 icon-light pr-3"
+                    />
+                    <div>GitHub</div>
+                  </a>
+                </div>
               ) : (
                 ''
               )}
+              <div className="portButton rounded-md">
+                <a href={project.deployed}>
+                  <h4 className=" text-white">View Here</h4>
+                </a>
+              </div>
             </div>
-            <a href={project.deployed}>
-              <h4 className="italic underline text-white py-2">view here</h4>
-            </a>
-            <p className="text-white overflow-ellipsis">{project.description}</p>
           </div>
         </div>
       </div>
