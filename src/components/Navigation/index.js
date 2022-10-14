@@ -10,18 +10,20 @@ function Navigation(props) {
     document.title = capitalizeFirstLetter(currentPage);
   });
   return (
-    <div id="main" className="flex items-center justify-between px-3 pb-4 bg-black">
-      {navLinks.map(link => (
-        <a
-          key={link}
-          href={`#${link}`}
-          className="navLink w-24"
-          onClick={() => setCurrentPage(link)}
-        >
-          <p className="px-3 pb-2">{capitalizeFirstLetter(link)}</p>
-          <hr className={currentPage === link ? 'w-14' : 'hidden'} />
-        </a>
-      ))}
+    <div id="main" className="w-full flex justify-center bg-black">
+      <div className="flex items-center justify-between px-3 pb-4 md:w-2/3 ">
+        {navLinks.map(link => (
+          <a
+            key={link}
+            href={`#${link}`}
+            className="navLink w-24"
+            onClick={() => setCurrentPage(link)}
+          >
+            <p className="px-3 pb-2">{capitalizeFirstLetter(link)}</p>
+            <hr className={currentPage === link ? 'w-14' : 'hidden'} />
+          </a>
+        ))}
+      </div>
     </div>
   );
 }

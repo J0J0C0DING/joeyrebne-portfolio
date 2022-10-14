@@ -15,7 +15,7 @@ const Hover = ({ project }) => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full md:w-1/2">
       <div key={project.name} className="relative h-60 overflow-hidden">
         <img
           src={require(`../../assets/images/projectPreview/${project.category}/project-${project.src}.png`)}
