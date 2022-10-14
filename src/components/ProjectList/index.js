@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Hover from './hover';
 
 // List of projects
-const PortfolioList = ({ category }) => {
+const PortfolioList = ({ currentCategory }) => {
   const [projects] = useState([
     {
       name: `Julia's Children`,
@@ -90,7 +90,7 @@ const PortfolioList = ({ category }) => {
   ]);
 
   // Filter photos by category
-  const currentProjects = projects.filter(project => project.category === category);
+  const currentProjects = projects.filter(project => project.category === currentCategory);
 
   return (
     <div className="flex flex-wrap w-full">
