@@ -41,7 +41,7 @@ const Hover = ({ project }) => {
           {/* display project data in div */}
           <div className="absolute top-1/3  min-h-full overflow-auto px-2">
             <div className="flex flex-wrap">
-              <h2 className="text-white text-xl">{project.name}</h2>
+              <h3 className="text-white text-xl">{project.name}</h3>
               {/* Add GitHub link if web application */}
               {project.category === 'web' ? (
                 <a href={project.github}>

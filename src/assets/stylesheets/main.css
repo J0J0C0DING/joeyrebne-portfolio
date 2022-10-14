@@ -701,6 +701,15 @@ select {
 .w-screen {
   width: 100vw;
 }
+.w-24 {
+  width: 6rem;
+}
+.w-14 {
+  width: 3.5rem;
+}
+.w-11\/12 {
+  width: 91.666667%;
+}
 .max-w-xs {
   max-width: 20rem;
 }
@@ -745,15 +754,8 @@ select {
 .border-4 {
   border-width: 4px;
 }
-.border-2 {
-  border-width: 2px;
-}
 .border-b-2 {
   border-bottom-width: 2px;
-}
-.border-slate-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 .bg-black {
   --tw-bg-opacity: 1;
@@ -783,9 +785,6 @@ select {
 }
 .p-3 {
   padding: 0.75rem;
-}
-.p-1 {
-  padding: 0.25rem;
 }
 .p-5 {
   padding: 1.25rem;
@@ -822,6 +821,9 @@ select {
 }
 .pb-4 {
   padding-bottom: 1rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 .pl-3 {
   padding-left: 0.75rem;
@@ -892,6 +894,7 @@ body {
   flex-direction: column;
 }
 
+/* For 'Sticky' Footer */
 .site {
   display: flex;
   min-height: 100vh;
@@ -901,9 +904,21 @@ body {
 .content {
   flex: 1;
 }
+/* End 'Sticky Footer */
 
+/* SVG Filters */
 .icon-light {
   filter: invert(100%) sepia(1%) saturate(5913%) hue-rotate(288deg) brightness(121%) contrast(89%);
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.navLink {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {

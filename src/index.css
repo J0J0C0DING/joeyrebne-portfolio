@@ -21,6 +21,7 @@ body {
   flex-direction: column;
 }
 
+/* For 'Sticky' Footer */
 .site {
   display: flex;
   min-height: 100vh;
@@ -30,7 +31,23 @@ body {
 .content {
   flex: 1;
 }
+/* End 'Sticky Footer */
 
+/* SVG Filters */
 .icon-light {
   filter: invert(100%) sepia(1%) saturate(5913%) hue-rotate(288deg) brightness(121%) contrast(89%);
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.navLink {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  font
 }
