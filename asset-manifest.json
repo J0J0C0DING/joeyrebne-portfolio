@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joeyrebne-portfolio/static/css/main.58045d8b.css",
-    "main.js": "/joeyrebne-portfolio/static/js/main.67bdf9ab.js",
+    "main.css": "/joeyrebne-portfolio/static/css/main.807f5dc1.css",
+    "main.js": "/joeyrebne-portfolio/static/js/main.a26814be.js",
     "static/js/787.92c8778e.chunk.js": "/joeyrebne-portfolio/static/js/787.92c8778e.chunk.js",
     "static/media/project-ohSnap.png": "/joeyrebne-portfolio/static/media/project-ohSnap.a3bff6f4af37bf7d5899.png",
     "static/media/project-opioidEpidemic.png": "/joeyrebne-portfolio/static/media/project-opioidEpidemic.72b371b634b3b98f4c04.png",
@@ -17,14 +17,17 @@
     "static/media/project-movieFinder.png": "/joeyrebne-portfolio/static/media/project-movieFinder.bcbf35a49d3daf30b871.png",
     "static/media/resume_Page_1.png": "/joeyrebne-portfolio/static/media/resume_Page_1.1c5fd4c85e08afe9267e.png",
     "static/media/resume_Page_2.png": "/joeyrebne-portfolio/static/media/resume_Page_2.68a319fef1286fad7732.png",
-    "static/media/full-logo-black.png": "/joeyrebne-portfolio/static/media/full-logo-black.ea4f2f9ccfe48244d5c6.png",
+    "static/media/full-logo.svg": "/joeyrebne-portfolio/static/media/full-logo.51162dd4371d9db76ab46851205fdac0.svg",
+    "static/media/GitHub.svg": "/joeyrebne-portfolio/static/media/GitHub.7c2feeb3ff679c6ccdfdf31f6a2bd064.svg",
     "index.html": "/joeyrebne-portfolio/index.html",
-    "main.58045d8b.css.map": "/joeyrebne-portfolio/static/css/main.58045d8b.css.map",
-    "main.67bdf9ab.js.map": "/joeyrebne-portfolio/static/js/main.67bdf9ab.js.map",
+    "static/media/Behance.svg": "/joeyrebne-portfolio/static/media/Behance.4b802d7697c78dad819f3b450bde556c.svg",
+    "static/media/LinkedIn.svg": "/joeyrebne-portfolio/static/media/LinkedIn.59bd7de48d1773762bba758a41f8eca5.svg",
+    "main.807f5dc1.css.map": "/joeyrebne-portfolio/static/css/main.807f5dc1.css.map",
+    "main.a26814be.js.map": "/joeyrebne-portfolio/static/js/main.a26814be.js.map",
     "787.92c8778e.chunk.js.map": "/joeyrebne-portfolio/static/js/787.92c8778e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58045d8b.css",
-    "static/js/main.67bdf9ab.js"
+    "static/css/main.807f5dc1.css",
+    "static/js/main.a26814be.js"
   ]
 }
