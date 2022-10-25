@@ -5,6 +5,14 @@ import Hover from './hover';
 const PortfolioList = ({ currentCategory }) => {
   const [projects] = useState([
     {
+      name: `Workout Tracker`,
+      category: 'web',
+      description: `Workout Track is an MVP that lets users track their workouts.`,
+      src: 'workoutTracker',
+      github: 'https://github.com/J0J0C0DING/workout-tracker',
+      deployed: 'https://rebne-workout-tracker.herokuapp.com/',
+    },
+    {
       name: `Julia's Children`,
       category: 'web',
       description: `Julia's Children is a forum for chefs to find recipes and share recipes.`,
