@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joeyrebne-portfolio/static/css/main.807f5dc1.css",
-    "main.js": "/joeyrebne-portfolio/static/js/main.4509c7ba.js",
+    "main.css": "/joeyrebne-portfolio/static/css/main.783f5251.css",
+    "main.js": "/joeyrebne-portfolio/static/js/main.9c7da7cc.js",
     "static/js/787.92c8778e.chunk.js": "/joeyrebne-portfolio/static/js/787.92c8778e.chunk.js",
     "static/media/project-ohSnap.png": "/joeyrebne-portfolio/static/media/project-ohSnap.a3bff6f4af37bf7d5899.png",
     "static/media/project-opioidEpidemic.png": "/joeyrebne-portfolio/static/media/project-opioidEpidemic.72b371b634b3b98f4c04.png",
@@ -23,12 +23,12 @@
     "index.html": "/joeyrebne-portfolio/index.html",
     "static/media/Behance.svg": "/joeyrebne-portfolio/static/media/Behance.4b802d7697c78dad819f3b450bde556c.svg",
     "static/media/LinkedIn.svg": "/joeyrebne-portfolio/static/media/LinkedIn.59bd7de48d1773762bba758a41f8eca5.svg",
-    "main.807f5dc1.css.map": "/joeyrebne-portfolio/static/css/main.807f5dc1.css.map",
-    "main.4509c7ba.js.map": "/joeyrebne-portfolio/static/js/main.4509c7ba.js.map",
+    "main.783f5251.css.map": "/joeyrebne-portfolio/static/css/main.783f5251.css.map",
+    "main.9c7da7cc.js.map": "/joeyrebne-portfolio/static/js/main.9c7da7cc.js.map",
     "787.92c8778e.chunk.js.map": "/joeyrebne-portfolio/static/js/787.92c8778e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.807f5dc1.css",
-    "static/js/main.4509c7ba.js"
+    "static/css/main.783f5251.css",
+    "static/js/main.9c7da7cc.js"
   ]
 }
