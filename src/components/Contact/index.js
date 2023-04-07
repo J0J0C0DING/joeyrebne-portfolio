@@ -51,6 +51,8 @@ function Contact() {
         <form
           id="contact-form"
           className="w-full md:w-1/2 grid grid-cols-1 gap-2"
+          action="https://getform.io/f/dce1fad4-2153-4945-b340-351be3cd96e1"
+          method="POST"
           onSubmit={handleSubmit}
         >
           <div>
