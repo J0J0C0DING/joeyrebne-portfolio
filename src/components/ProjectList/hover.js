@@ -48,7 +48,7 @@ const Hover = ({ project }) => {
               {/* Add GitHub link if web application */}
               {project.category === 'web' ? (
                 <div className="portButton rounded-md">
-                  <a href={project.github} className="flex flex-wrap">
+                  <a href={project.github} target="_blank" className="flex flex-wrap">
                     <img
                       src={GitHubIcon}
                       alt={`link to ${project.github}'s GitHub repository`}
@@ -61,7 +61,7 @@ const Hover = ({ project }) => {
                 ''
               )}
               <div className="portButton rounded-md">
-                <a href={project.deployed}>
+                <a href={project.deployed} target="_blank">
                   <h4 className=" text-white">View Here</h4>
                 </a>
               </div>
