@@ -28,11 +28,11 @@ function Contact() {
     }
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-    setFormState({ name: '', email: '', message: '' });
-  }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   console.log(formState);
+  //   setFormState({ name: '', email: '', message: '' });
+  // }
 
   return (
     <section className="w-11/12 mx-auto py-8 divide-y md:max-w-4xl px-3 bg-gradient-to-r from-cyan-500 to-blue-500 my-10 rounded-xl">
@@ -49,11 +49,11 @@ function Contact() {
           </div>
         </div>
         <form
-          id="contact-form"
-          className="w-full md:w-1/2 grid grid-cols-1 gap-2"
           action="https://getform.io/f/dce1fad4-2153-4945-b340-351be3cd96e1"
           method="POST"
-          onSubmit={handleSubmit}
+          id="contact-form"
+          className="w-full md:w-1/2 grid grid-cols-1 gap-2"
+          // onSubmit={handleSubmit}
         >
           <div>
             <label htmlFor="name" className="block">
@@ -64,7 +64,7 @@ function Contact() {
               defaultValue={formState.name}
               onBlur={handleChange}
               name="name"
-              className="mt-1 block w-full rounded-lg"
+              className="mt-1 block w-full rounded-lg text-slate-900"
             />
           </div>
           <div>
@@ -76,7 +76,7 @@ function Contact() {
               name="email"
               defaultValue={formState.email}
               onBlur={handleChange}
-              className="mt-1 block w-full rounded-lg"
+              className="mt-1 block w-full rounded-lg  text-slate-900"
             />
           </div>
           <div>
@@ -88,7 +88,7 @@ function Contact() {
               defaultValue={formState.message}
               rows="5"
               onBlur={handleChange}
-              className="mt-1 block w-full rounded-lg"
+              className="mt-1 block w-full rounded-lg text-slate-900"
             />
           </div>
           {errorMessage && (
